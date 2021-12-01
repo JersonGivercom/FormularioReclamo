@@ -121,8 +121,7 @@ i{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0px 62px;
-
+    margin: 0 62px;
 }
 
 .item_formulario{
@@ -159,7 +158,6 @@ i{
 }
 .botones_formulario{
     margin-top: 60px;
-    margin-left: 70px;
 }
 
 .btn{
@@ -184,7 +182,9 @@ i{
     background: #127cb4;
 }
 
-
+.formulario{
+    width: 100%;
+}
 .slider-frame {
 	width: 100%;
     height: auto;
@@ -234,9 +234,8 @@ i{
         width: 90%;
         margin-bottom: 45px;
     }
-    .botones_formulario{
-        display: flex;
-        flex-direction: column;
+    .item_formulario{
+        width: 250px;
     }
     .btn{
         margin: 12px;
@@ -260,12 +259,17 @@ i{
     .contenido_titulo{
         font-size: 2.2rem;
     }
+    
     .botones_formulario{
         display: flex;
         flex-direction: column;
+        margin-top: 60px;
     }
     .btn{
         margin: 12px;
        
+    }
+    .contenido_formulario {
+        margin: 0 0;
     }
 }
