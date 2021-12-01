@@ -172,6 +172,7 @@ i{
 }
 .textArea{
     margin-top: 5px;
+    font-size: 1rem;
     width: 100% !important;
     height: 150px;
     resize: none;
