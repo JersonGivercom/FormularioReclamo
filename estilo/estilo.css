@@ -270,7 +270,8 @@ i{
         font-size: 14px;
     }
     .cajaReclamo-contenido{
-        width: 70%;
+        width: 85%;
+        margin: 10px auto;
     }
     .cajaReclamo-item{
         width: 100%;
