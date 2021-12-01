@@ -119,14 +119,17 @@ i{
 }
 .contenido_formulario{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin: 0px 62px;
+
 }
 
 .item_formulario{
     margin: 15px;
-    width: 340px;
+    width: 300px;
     font-family: 'Open Sans', sans-serif;
+    
 }
 .item_texto{
     display: block;
@@ -155,16 +158,18 @@ i{
     resize: none;
 }
 .botones_formulario{
-    margin-top: 50px;
-    
+    margin-top: 60px;
+    margin-left: 70px;
 }
+
 .btn{
     margin: 0 40px;
-    padding: 15px 30px;
+    padding: 10px 10px;
     font-size: 1rem;
     text-decoration: none;
     color: #fff;
     border-radius: 5px;
+    text-align: center;
 }
 .btn_generar{
     background: rgb(11, 161, 11);
@@ -229,6 +234,14 @@ i{
         width: 90%;
         margin-bottom: 45px;
     }
+    .botones_formulario{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn{
+        margin: 12px;
+       
+    }
 }
 
 @media (max-width: 450px){
@@ -240,5 +253,19 @@ i{
     }
     .cajaReclamo-item{
         width: 100%;
+    }
+    .cabezera_titulo{
+        font-size: 2.2rem;
+    }
+    .contenido_titulo{
+        font-size: 2.2rem;
+    }
+    .botones_formulario{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn{
+        margin: 12px;
+       
     }
 }
