@@ -98,6 +98,7 @@ body{
     font-size: 1.35em;
 }
 .cajaReclamo-item{
+    display: flex;
     margin: 15px auto;
     width: 350px;
 }
