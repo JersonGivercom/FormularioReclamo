@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cabezera{
+    margin-bottom: 25px;
+}
+.cabezera_titulo{
+    font-size: 2.55rem;
+    color: #00A0F4;
+}
+.cabezera_titulo img{
+    float: right;
+
+}
+.cabezera_header{
+    margin-top: 20px;
+}
+.cabezera_header h3{
+    margin-bottom: 12px;
+}
+.contenido{
+    position: absolute;
+    top: 90px;
+}
+.item{
+    margin: 22px 35px;
+    padding: 5px ;
+}
+.titulo{
+    background-color: crimson;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 2px 4px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+.cuerpo{
+    font-size: 2.3em;
+}
+.pie{
+    font-size: 1.5em;
+}
+
+.caja{
+    padding: 12px auto;
+
+}
+.caja-titulo{
+    text-align: center;
+    font-size: 2.55em;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px
+}
+.caja-subtitulo{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.cajaReclamo{
+    margin: 90px 0;
+    display: flex;
+    flex-direction: row;
+}
+.cajaReclamo-contenido{
+    padding: 45px 0;
+    width: 50%;
+    margin: 10px 50px;
+    /* box-shadow: 1px 1px 16px 7px rgba(0, 0, 0, 0.13); */
+    box-shadow: 3px 3px 12px 14px rgba(45, 50, 52, 0.27);
+    border-width: 0;
+    border-radius: 15px;
+    transition: all 0.2s;
+}
+.cajaReclamo-contenido > h3{
+    text-align: center;
+    font-size: 1.95em;
+}
+.cajaReclamo-contenido  > h5{
+  text-align: center;  
+  font-size: 1.15em;
+}
+.cajaReclamo-cuerpo{
+    margin: 40px 40px;
+    font-size: 1.35em;
+    text-align: center;
+}
+.cajaReclamo-item{
+    margin: 15px auto;
+    width: 350px;
+}
+
+.cajaReclamo-boton{
+    text-align: center;
+    padding: 30px;
+    
+}
+.btn-reclamo{
+    color: #fff;
+    text-decoration: none;
+    background: #00A0F4;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.btn-reclamo:hover{
+    background: #026ea8;
+}
+i{
+    color: blue;
+    float: left;
+}
+
+.contenedor{
+    width: 90%;
+    margin: 50px auto;
+    padding: 50px 50px;
+    box-shadow: 3px 3px 12px 14px rgba(45, 50, 52, 0.27);
+    border-radius: 10px;
+}
+.contenido_formulario{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.contenido_titulo{
+    text-align: center;
+    font-size: 2rem;
+    color: #00A0F4;
+    text-transform: uppercase;
+}
+.item_formulario{
+    margin: 15px;
+    width: 340px;
+    font-family: 'Open Sans', sans-serif;
+}
+.item_texto{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    height: calc(2.25rem + 2px);
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #737e94;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.item_texto:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #a9bcee;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.textArea{
+    width: 100% !important;
+    height: 150px;
+    resize: none;
+}
+.botones_formulario{
+    margin-top: 50px;
+    
+}
+.btn{
+    margin: 0 40px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn_generar{
+    background: rgb(11, 161, 11);
+}
+.btn_generar:hover{
+    background: rgb(3, 129, 3);
+}
+.btn_regresar{
+    background: #00A0F4;
+}
+.btn_regresar:hover{
+    background: #127cb4;
+}
+
+
+.slider-frame {
+	width: 100%;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 10s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+    height: 550px;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+
+@media (max-width: 1070px) {
+    .cajaReclamo{
+       display: flex;
+       flex-direction: column;
+    }
+    .cajaReclamo-contenido{
+        width: 90%;
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 450px){
+    .cajaReclamo{
+        font-size: 14px;
+    }
+    .cajaReclamo-contenido{
+        width: 70%;
+    }
+    .cajaReclamo-item{
+        width: 100%;
+    }
+}
