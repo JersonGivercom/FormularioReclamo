@@ -11,6 +11,11 @@
     font-size: 2.55rem;
     color: #00A0F4;
 }
+.contenido_titulo{
+    text-align: center;
+    font-size: 2.55rem;
+    color: #00A0F4;
+}
 .cabezera_titulo img{
     float: right;
 
@@ -29,14 +34,7 @@
     margin: 22px 35px;
     padding: 5px ;
 }
-.titulo{
-    background-color: crimson;
-    color: #fff;
-    font-size: 1.2em;
-    padding: 2px 4px;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-}
+
 .cuerpo{
     font-size: 2.3em;
 }
@@ -67,7 +65,6 @@
     padding: 45px 0;
     width: 50%;
     margin: 10px 50px;
-    /* box-shadow: 1px 1px 16px 7px rgba(0, 0, 0, 0.13); */
     box-shadow: 3px 3px 12px 14px rgba(45, 50, 52, 0.27);
     border-width: 0;
     border-radius: 15px;
@@ -125,12 +122,7 @@ i{
     flex-wrap: wrap;
     margin-top: 20px;
 }
-.contenido_titulo{
-    text-align: center;
-    font-size: 2rem;
-    color: #00A0F4;
-    text-transform: uppercase;
-}
+
 .item_formulario{
     margin: 15px;
     width: 340px;
