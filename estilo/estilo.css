@@ -11,6 +11,13 @@ body{
     line-height: 1.5;
     color: rgb(73, 80, 87);
 }
+
+.libroImagen{
+    text-align: center;
+}
+.libroImagen img{
+    width: 200px;
+}
 .cabezera{
     margin-bottom: 25px;
 }
@@ -25,7 +32,6 @@ body{
 }
 .cabezera_titulo img{
     float: right;
-
 }
 .cabezera_header{
     margin-top: 20px;
@@ -47,15 +53,19 @@ body{
 .titulo{
     background: crimson;
     font-size: 1.2em;
-    font-size: 1.2em;
+    font-weight: 500;
     color: #fff;
     padding: 5px 5px;
     border-radius: 3px;
 }
 .cuerpo{
+    color:black;
+    font-weight: 500;
     font-size: 2.3em;
 }
 .pie{
+    color:black;
+    font-weight: 500;
     font-size: 1.5em;
 }
 
@@ -173,6 +183,8 @@ i{
 .textArea{
     margin-top: 5px;
     font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
     width: 100% !important;
     height: 150px;
     resize: none;
@@ -210,7 +222,7 @@ i{
 .slider-frame {
 	width: 100%;
     height: auto;
-	margin:50px auto 0;
+	margin: 50px auto 0;
 	overflow: hidden;
 }
 
