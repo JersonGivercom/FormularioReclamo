@@ -10,8 +10,22 @@ body{
     font-weight: 400;
     line-height: 1.5;
     color: rgb(73, 80, 87);
+    background-color: #E6EBED;
 }
-
+.header{
+    background-color:#004984e3 ;
+    border-bottom: 1px solid #fff;
+}
+.header_logo{
+    width: 135px;
+    height: 80px;
+    margin-left: 60px;
+}
+.header_logo img{
+    margin: 7px auto;
+    width: 132px;
+    height: 70px;
+  }
 .libroImagen{
     text-align: center;
 }
@@ -44,7 +58,7 @@ body{
 }
 .contenido{
     position: absolute;
-    top: 90px;
+    top: 180px;
 }
 .item{
     margin: 22px 35px;
@@ -94,6 +108,7 @@ body{
     border-width: 0;
     border-radius: 15px;
     transition: all 0.2s;
+    background-color: #fff;
 }
 .cajaReclamo-contenido > h3{
     text-align: center;
@@ -146,6 +161,7 @@ i{
     padding: 50px 50px;
     box-shadow: 3px 3px 12px 14px rgba(45, 50, 52, 0.27);
     border-radius: 10px;
+    background-color: #fff;
 }
 .contenido_formulario{
     display: flex;
@@ -221,9 +237,9 @@ i{
 }
 .slider-frame {
 	width: 100%;
-    height: auto;
-	margin: 50px auto 0;
+    height: 550px;
 	overflow: hidden;
+    background-color:#004984 ;
 }
 
 .slider-frame ul {
